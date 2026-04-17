@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Shield, Sparkles, Droplets, Scaling } from 'lucide-react';
-// import wfpMethod from '../assets/images/wfp-method.jpg';
+import wfpAction from "../assets/images/wfp-action.jpg";
 
 const AboutMethod = () => {
   return (
@@ -15,12 +15,11 @@ const AboutMethod = () => {
             className="relative"
           >
             <div className="aspect-[4/5] rounded-[3rem] overflow-hidden shadow-2xl">
-              <img 
-                src="../assets/images/wfp-action.jpg" 
-                alt="Window cleaner using water-fed pole" 
-                className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
-              />
+              <img
+  src={wfpAction}
+  alt="Window cleaner using water-fed pole"
+  className="w-full h-full object-cover"
+/>
             </div>
             {/* Decals */}
             <div className="absolute -bottom-10 -right-10 bg-secondary p-8 rounded-[2rem] text-white shadow-xl hidden md:block max-w-[200px]">
