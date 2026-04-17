@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Inter", "Helvetica Neue", Arial, sans-serif;
+  
+  --color-primary: #1B2B4E;      /* Professional Dark Navy */
+  --color-accent: #3AB4F2;       /* Bright Water Blue */
+  --color-text-main: #2D3748;
+  --color-text-light: #718096;
+  --color-bg-light: #F8FAFC;
+  --color-success: #10B981;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-bg-light);
+    color: var(--color-text-main);
+  }
+}
+
+@layer utilities {
+  .shadow-soft {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+  }
+  .shadow-accent {
+    box-shadow: 0 4px 14px rgba(58, 180, 242, 0.3);
+  }
+  .shadow-panel {
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  }
+}
