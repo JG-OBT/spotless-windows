@@ -69,9 +69,7 @@ const Hero = () => {
                     className="w-full h-full object-cover mix-blend-overlay opacity-50"
                     referrerPolicy="no-referrer"
                   />
-                  <div className="absolute inset-0 flex items-center justify-center text-white text-center p-8 font-semibold">
-                    <span className="max-w-[200px]">[Professional Window Cleaning Mockup]</span>
-                  </div>
+        
               </div>
 
               {/* Area Badge */}
