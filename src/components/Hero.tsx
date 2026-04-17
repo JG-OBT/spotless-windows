@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Phone, CheckCircle2, MapPin } from 'lucide-react';
-// Note: User mentioned we should point to local placeholder paths in src/assets/images
+
 import heroImage from '../assets/images/hero.jpg';
 
 const Hero = () => {
