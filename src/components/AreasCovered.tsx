@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { MapPin } from 'lucide-react';
+import localHome from "../assets/images/local-home.jpg";
 
 const areas = [
   "Stanford-le-Hope",
@@ -43,11 +44,10 @@ const AreasCovered = () => {
           <div className="relative">
             <div className="aspect-square rounded-[3rem] overflow-hidden shadow-2xl">
               <img 
-                src="../assets/images/local-home.jpg" 
-                alt="Beautiful local residential property" 
-                className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
-              />
+  src={localHome}
+  alt="Beautiful local residential property" 
+  className="w-full h-full object-cover"
+/>
             </div>
             {/* Float badge */}
             <motion.div 
