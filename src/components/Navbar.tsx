@@ -31,7 +31,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-16">
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 flex items-center gap-3">
-            <div className="w-8 h-8 bg-accent rounded-lg"></div>
+            <img 
+  src="/favicon.png" 
+  alt="Spotless Windows Logo" 
+  className="w-8 h-8 rounded-lg object-contain"
+/>
             <span className="text-2xl font-display font-extrabold tracking-tight text-primary">
               SPOTLESS WINDOWS
             </span>
